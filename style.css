@@ -1,0 +1,765 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+    margin: 4px 0 0;
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    padding-top: 12px;
+    border-bottom: 1px solid rgb(219, 215, 215);
+    height: 103px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+input {
+    position: absolute;
+    left: 170px;
+    width: 570px;
+    height: 34px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 9999px;
+    padding: 5px 20px;
+}
+
+.googleApps{
+    width: 25px;
+    height: 25px;
+}
+
+
+.flexEnd {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+
+#signIn {
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    background: rgb(94, 93, 93);
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    text-align: center;
+    justify-items: center;
+    padding: 5px 5px;
+}
+
+.tab {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.all {
+    display: inline-block;
+    width: 70px;
+    font-size: 14px;
+    border-bottom: 3px solid #1A73E8;
+    margin-right: 6px;
+    padding-bottom: 13px;
+}
+
+.tabChild {
+    display: inline-block;
+    width: 70px;
+}
+
+.tabChildD {
+    display: inline-block;
+    width: 100px;
+}
+
+#svgMap {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 2px;
+}
+
+.tabLink {
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.tabLink:hover {
+    color: #1A73E8;
+} 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.aside {
+    margin-top: 60px;
+    position: relative;
+    right: 50px;
+    float: right;
+    width: 36%;
+    height: 130vh;
+    border: 1px solid rgb(189, 182, 182);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.in-flag {   
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    float: left;
+    border-top-left-radius: 12px;
+}
+
+#map {
+    border-top-right-radius: 12px;
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.in-flag1 {
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    padding-top: 0px;
+    border-bottom: 1px solid rgb(189, 182, 182);
+}
+
+.france {
+    font-size: 30px;
+    color: rgb(19, 18, 18);
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+
+
+.overview-text-large {
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    top: 260px;
+}
+
+.linkDecor {
+    font-size: smaller;
+    padding-left: 5px
+}
+
+.flagsB {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 250px;
+    border-radius: 8px;
+    position: absolute;
+    top: 580px;
+    left: 8px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.flagsB div {
+    display: inline-block;
+    border-radius: 6px;
+    padding: 20px 5px 20px 8px;
+    height: 80px;
+    border: 1px solid rgb(221, 214, 214);
+}
+
+.flagsB div img {
+    padding: 10px 0 10px;
+}
+
+.flagsB h4 {
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+#Germany img {
+    margin-top: 5px;
+}
+
+#uk img {
+    margin-top: -10px;
+}
+
+#England img {
+    margin-top: 5px;
+}
+
+.mainBody {
+    height: 310vh;
+    margin-left: 150px;
+    margin-top: -140vh;
+    width: 50%;
+}
+
+#resultTime {
+    color: rgb(117, 114, 114);
+}
+
+.linkLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wiikipedia {
+    height: auto;
+    margin-top: 3px;
+    width: 90%;
+}
+
+.headings {
+    color: rgb(18, 18, 245);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.headings:hover {
+    text-decoration: underline;
+}
+
+.wiikipedia p {
+    margin-top: -2px;
+}
+
+.wikiGrid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 45px;
+    margin-top: -22px;
+    color: rgb(117, 114, 114);
+}
+
+.wikiGrid2 {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 100px;
+    
+}
+
+.inlineLink {
+    text-decoration: none;
+    color: rgb(18, 18, 245);
+}
+
+.inlineLink:hover {
+    text-decoration: underline;
+}
+
+.pplAlsoAsk {
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.pplAlsoAsk div {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(189, 182, 182);
+}
+
+.pplAlsoAsk div:last-child {
+    border-bottom: none;
+}
+
+.paa {
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 10px;
+}
+
+.topStories {
+    position: relative;
+}
+
+.chicks {
+    display: inline-box;
+    position: absolute;
+    width: 210.3px;
+    height: 280px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 4px;
+    margin-right: 5px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.chicks img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.chickMedia {
+    position: absolute;
+    top: 200px;
+    padding: 10px;
+}
+
+.corona1 {
+    display: inline-box;
+    position: absolute;
+    top: 40px;
+    width: 210.3px;
+    height: 280px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 218.3px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.corona1 img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.corona1Media {
+    position: absolute;
+    top: 200px;
+    padding: 10px;
+}
+
+.corona2 {
+    display: inline-box;
+    position: absolute;
+    top: 40px;
+    width: 210.3px;
+    height: 280px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 436.6px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.corona2 img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.corona2Media {
+    position: absolute;
+    top: 200px;
+    padding: 10px;
+}
+
+.para {
+    position: absolute;
+    top: 110px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.more {
+    position: absolute;
+    top: 330px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.more .moreP:hover {
+    text-decoration: underline;
+}
+
+.moreP {
+    position: absolute;
+    top: 0px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: blue;
+}
+
+.svgArrow {
+    width: 25px;
+    fill: rgb(10, 10, 158);
+}
+
+.thingsToDo {
+    position: relative;
+    top: 350px;
+    width: 600px;
+    height: 345px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 12px;
+    margin: 10px 0;
+    
+}
+
+
+.thingsToDo div {
+    position: absolute;
+    top: 62px;
+    width: 128px;
+    height: 200px;
+    border-top: 1px solid rgb(189, 182, 182);
+    border-bottom: 1px solid rgb(189, 182, 182);
+    border-left: 1px solid rgb(189, 182, 182);
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.thingsToDo h3{
+    margin-top: -5px;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.nice {
+    margin-left: 150px;
+}
+
+.mont {
+    margin-left: 300px;
+}
+
+.riveria {
+    margin-left: 450px;
+}
+
+#travelGuide {
+    color: #1a0dab;
+    position: relative;
+    top: 220px;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+#travelGuide:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.britannica {
+    position: relative;
+    top: 355px;
+}
+
+.flags {
+    border: 1px solid rgb(189, 182, 182);
+    width: 600px;
+    padding: 10px;
+    position: relative;
+    top: 365px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+#flagsP {
+    font-size: 16px;
+    color: grey;
+}
+
+.flags h2 a {
+    float: right;
+}
+
+#flagsP:hover {
+    text-decoration: underline;
+}
+
+.europeConty {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.europeConty:hover {
+    text-decoration: underline;
+}
+
+.searchGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    color: blue;
+}
+
+.searchHover:hover {
+    text-decoration: underline;
+}
+
+.list-reset {
+    padding:0;
+    list-style: none;
+    display:inline-block;
+}
+
+.list-reset:hover {
+      text-decoration: underline;
+}
+
+.googleNavLogo {
+      margin-left: 160px;
+      margin-top: 25px;
+}
+
+#favicon {
+    margin-top: -40px;
+    margin-left: 320px;
+    width: 15px;
+}
+
+.reset-a {
+      padding-right: 10px;
+      color: blue;
+      font-size: 13px;
+}
+
+.page-numbers {
+      margin: 10px 5px;
+}
+
+.next {
+      margin-left: 50px;
+      font-size: 14px;
+}
+
+footer {
+    position: relative;
+    height: 80px;
+    background: #f2f2f2;
+    border-top: #3a3737;
+    margin-top: 327px;
+    color: rgb(75, 72, 72);
+}
+
+
+.footer1 {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    border-bottom: #222121;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+.footer1 div{
+    display: inline-block;
+}
+
+.footer1 div:first-child {
+    margin-right: 20px;
+}
+
+.circleDot {
+    width: 11px;
+    height: 11px;
+    background: grey;
+    border-radius: 100%;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: #333030;
+}
+
+.footer2 div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer2Link:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    display: none;
+}
+
+@media (max-width:1106px) {
+    .aside {
+        display: none;
+    }
+
+    .mainBody {
+        margin-top: 0;
+        width: 80%;
+    }
+
+    .wikiGrid2 {
+        grid-template-columns: repeat(2, 40%);
+    }
+
+    .pplAlsoAsk {
+        width: 80%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width:916px) {
+    .mainBody {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .absent, .flexEnd, #signIn {
+        display: none;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width:720px) {
+    .topStories, .thingsToDo, .flags, .wikiGrid2, .pplAlsoAsk {
+        display: none;
+    }
+
+    .britannica {
+        position: relative;
+        top: 20px;
+    }
+
+    .tab {
+        left: 20px;
+        top: 150px;
+        width: 100%;
+        
+    }
+
+    .mainBody {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    header {
+        height: 175px;
+        border-bottom: none;
+        border-bottom: 1px solid rgb(219, 215, 215);
+    }
+
+    input {
+        top: 78px;
+        left: 50px;
+        width: 60%;
+    }
+
+    .logo {
+        left: 40%;
+    }
+
+    .googleNavLogo {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 700px;
+        background: rgb(241, 234, 234);
+        margin: 10px -8px -8px;
+    }
+
+    .Nigeria {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        color:rgb(65, 62, 62);
+    }
+
+    .fSecLine {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid rgb(201, 194, 194);
+        border-bottom: 1px solid rgb(201, 194, 194);
+        padding: 0 10px;
+    }
+
+    .fThrdLine {
+        text-align: center;
+    }
+
+    .f4thLine p{
+        display: flex;
+    }
+
+    .f4thLine {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .f5thLine {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .noDecorFooter {
+        text-decoration: none;
+        color:rgb(65, 62, 62);
+    }
+
+    .footer1 {
+        display: none;
+    }
+
+    .footer2 {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    .mainBody {
+        height: 170vh;
+    }    
+}
+
+
